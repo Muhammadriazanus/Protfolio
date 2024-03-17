@@ -2,12 +2,12 @@ import React from 'react'
 
 const Work = () => {
     return (
-        <div name="work" className='bg-[#0a192f] text-gray-300 w-full h-screen sm:bg-[#0a192f]'>
+        <div name="work" className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
             {/* container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div className='text-4xl font-bold inline border-b-4 border-pink-600  py-4 '>
-                    <p className='md:text-2xl '>Work</p>
-                    <p className='py-4 md:text-2xl'>These are technologies I've work with</p>
+                <div className='text-4xl font-bold inline border-b-4 border-pink-600  py-4 mt-[75px]'>
+                    <p className='text-4xl  font-bold inline border-b-4  text-gray-300 border-pink-600 '>Work</p>
+                    <p className='py-4 sm:text-2xl '>These are technologies I've work with</p>
                 </div>
                 <div>
                     <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4'>
